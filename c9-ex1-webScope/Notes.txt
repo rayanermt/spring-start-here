@@ -1,0 +1,4 @@
+** LOGIN LOGIC
+    If the user provides a correct set of credentials, the app recognizes the user and confirms a login.
+
+    *OBJECTS

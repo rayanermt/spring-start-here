@@ -1,0 +1,14 @@
+<!-- Page a user can only access after login. -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome</title>
+    </head>
+
+    <body>
+    <h1>Welcome, <span th:text="${username}"></span>👋</h1>
+    <a href="/main?logout">Log out</a>
+    </body>
+</html>
